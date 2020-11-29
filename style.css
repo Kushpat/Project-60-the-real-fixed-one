@@ -1,0 +1,83 @@
+body{
+    text-align: center;
+}
+#favhobby{
+    width: 200px;
+    height: 140px;
+    border: solid;
+    border-radius: 40%;
+    text-align: center;
+}
+h1{
+    font-family: sans-serif;
+    color: mediumblue;
+}
+p{
+    font-family: sans-serif;
+    color: deepskyblue;
+}
+#start{
+    background: rgb(34,193,195);
+background: rgb(23,23,196);
+background: linear-gradient( rgba(23,23,196,1) 35%, rgba(0,212,255,1) 100%);
+    z-index: 10;
+}
+.menu{
+    float: right;
+    list-style: none;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: blueviolet;
+    z-index: 9;
+    position: fixed;
+}
+.links{
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+    color: lightcoral;
+}
+.links:hover{
+    color: aqua;
+    font-size: 25px;
+    text-decoration: underline;
+}
+#mybook:hover{
+    color: darkcyan;
+}
+html{
+scroll-behavior: smooth;
+}
+#footersection iframe{
+    width: 100%;
+}
+.contacts h3:hover{
+    color: magenta;
+}
+#describebut:hover {background-color: paleturquoise}
+
+#describebut:active {
+  background-color: paleturquoise;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.romages{
+    width: 400px;
+    height: 497px;
+    transition: transform .2s;
+}
+#images{
+    width: 400px;
+    height: 497px;
+    transition: transform .2s;
+}
+#images:hover{
+    transform: scale(0.9);
+}
+.romages:hover{
+    transform: scale(0.9);
+}
